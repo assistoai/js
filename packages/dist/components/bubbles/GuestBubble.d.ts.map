@@ -1,0 +1,1 @@
+{"version":3,"file":"GuestBubble.d.ts","sourceRoot":"","sources":["../../../src/components/bubbles/GuestBubble.tsx"],"names":[],"mappings":"AAGA,KAAK,KAAK,GAAG;IACX,OAAO,EAAE,MAAM,CAAA;IACf,UAAU,EAAE,OAAO,CAAA;IACnB,SAAS,CAAC,EAAE,MAAM,CAAA;CACnB,CAAA;AAED,eAAO,MAAM,WAAW,UAAW,KAAK,mCAevC,CAAA"}
