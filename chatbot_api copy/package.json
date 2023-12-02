@@ -1,0 +1,48 @@
+{
+  "name": "@typebot.io/js",
+  "version": "0.2.25",
+  "description": "Javascript library to display typebots on your website",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@stripe/stripe-js": "1.54.1",
+    "@udecode/plate-common": "21.1.5",
+    "dompurify": "3.0.6",
+    "marked": "9.0.3",
+    "solid-element": "1.7.1",
+    "solid-js": "1.7.8"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "7.22.5",
+    "@rollup/plugin-babel": "6.0.3",
+    "@rollup/plugin-node-resolve": "15.1.0",
+    "@rollup/plugin-terser": "0.4.3",
+    "@rollup/plugin-typescript": "11.1.2",
+    "@types/dompurify": "3.0.3",
+    "autoprefixer": "10.4.14",
+    "babel-preset-solid": "1.7.7",
+    "clsx": "2.0.0",
+    "eslint": "8.44.0",
+    "eslint-plugin-solid": "0.12.1",
+    "postcss": "8.4.26",
+    "react": "18.2.0",
+    "rollup": "3.26.2",
+    "rollup-plugin-postcss": "4.0.2",
+    "rollup-plugin-typescript-paths": "1.4.0",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.3.2",
+    "@typebot.io/bot-engine": "1.0.0",
+    "@typebot.io/env": "1.0.0",
+    "@typebot.io/schemas": "1.0.0",
+    "@typebot.io/tsconfig": "0.0.1",
+    "@typebot.io/lib": "1.0.0",
+    "eslint-config-custom": "0.0.1"
+  },
+  "scripts": {
+    "dev": "rollup --watch --config rollup.config.js",
+    "build": "rollup --config rollup.config.js",
+    "lint": "eslint --fix \"src/**/*.ts*\""
+  }
+}
