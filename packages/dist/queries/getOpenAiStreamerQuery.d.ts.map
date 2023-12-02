@@ -1,0 +1,1 @@
+{"version":3,"file":"getOpenAiStreamerQuery.d.ts","sourceRoot":"","sources":["../../src/queries/getOpenAiStreamerQuery.ts"],"names":[],"mappings":"AAGA,eAAO,MAAM,sBAAsB;;eACuB,MAAM;iBAElD;IACR,OAAO,CAAC,EAAE,MAAM,GAAG,SAAS,CAAA;IAC5B,IAAI,CAAC,EAAE,QAAQ,GAAG,MAAM,GAAG,WAAW,GAAG,SAAS,CAAA;CACnD,EAAE,+CAuBJ,CAAA"}
